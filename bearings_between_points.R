@@ -2,7 +2,7 @@ install.package(geosphere)
 library(geosphere)
 
 # load a file with locations (points)
-points <- read.csv("claudia_soho.csv")
+points <- read.csv("MyFile.csv")
 summary(points)
 str(points)
 
